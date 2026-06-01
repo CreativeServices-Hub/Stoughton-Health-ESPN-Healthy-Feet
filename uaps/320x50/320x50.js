@@ -2,7 +2,9 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.ssMetadata = [];
+lib.ssMetadata = [
+		{name:"320x50_atlas_1", frames: [[0,502,1280,100],[0,604,1280,100],[0,706,1280,100],[0,808,1280,100],[0,0,600,500],[602,0,600,500],[1204,0,600,500],[0,910,1280,100]]}
+];
 
 
 (lib.AnMovieClip = function(){
@@ -25,40 +27,83 @@ lib.ssMetadata = [];
 
 
 
-(lib.RogersandHolland_0000s_0000_EndorsedbyCourtneyCroninESPNReporter = function() {
-	this.initialize(img.RogersandHolland_0000s_0000_EndorsedbyCourtneyCroninESPNReporter);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,640,100);
+(lib.StoughtonHP_0001s_0001_StoughtonHealthlogoRGBclean = function() {
+	this.initialize(ss["320x50_atlas_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
 
 
-(lib.RogersandHolland_0000s_0000s_0000_ShopNow = function() {
-	this.initialize(img.RogersandHolland_0000s_0000s_0000_ShopNow);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,640,100);
+
+(lib.StoughtonHP_0001s_0002_Rectangle5 = function() {
+	this.initialize(ss["320x50_atlas_1"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
 
 
-(lib.RogersandHolland_0000s_0000s_0001_Rectangle1 = function() {
-	this.initialize(img.RogersandHolland_0000s_0000s_0001_Rectangle1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,640,100);
+
+(lib.StoughtonHP_0001s_0003_5_30pm6_30pm = function() {
+	this.initialize(ss["320x50_atlas_1"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
 
 
-(lib.RogersandHolland_0000s_0001_Layer10 = function() {
-	this.initialize(img.RogersandHolland_0000s_0001_Layer10);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,640,100);
+
+(lib.StoughtonHP_0001s_0005_Rectangle4 = function() {
+	this.initialize(ss["320x50_atlas_1"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
 
 
-(lib.RogersandHolland_0000s_0002_9cdb952fa9a54dd189692d165925a3be = function() {
-	this.initialize(img.RogersandHolland_0000s_0002_9cdb952fa9a54dd189692d165925a3be);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,640,100);
+
+(lib.StoughtonJUNE_0000s_0000s_0000_Plainwhitebackgroundcopy = function() {
+	this.initialize(ss["320x50_atlas_1"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
 
 
-(lib.RogersandHolland_0000s_0003_GenerativeFill = function() {
-	this.initialize(img.RogersandHolland_0000s_0003_GenerativeFill);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,640,100);
+
+(lib.StoughtonJUNE_0000s_0000s_0001_OnlineConversationPlatformcopy2 = function() {
+	this.initialize(ss["320x50_atlas_1"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.StoughtonJUNE_0000s_0000s_0002_FootHealthGuidecopy2 = function() {
+	this.initialize(ss["320x50_atlas_1"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.StoughtonJUNE_0001s_0003_Datecopy = function() {
+	this.initialize(ss["320x50_atlas_1"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Symbol2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.StoughtonHP_0001s_0003_5_30pm6_30pm();
+	this.instance.setTransform(-150,-16,0.4172,0.4169);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-150,-16,534,41.7);
 
 
 (lib.Symbol1 = function(mode,startPosition,loop,reversed) {
@@ -73,18 +118,15 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.RogersandHolland_0000s_0000s_0000_ShopNow();
-	this.instance.setTransform(0,0,0.5,0.5);
+	this.instance = new lib.StoughtonJUNE_0001s_0003_Datecopy();
+	this.instance.setTransform(-142,4,0.3086,0.3085);
 
-	this.instance_1 = new lib.RogersandHolland_0000s_0000s_0001_Rectangle1();
-	this.instance_1.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,320,50);
+p.nominalBounds = new cjs.Rectangle(-142,4,395,30.9);
 
 
 // stage content:
@@ -99,48 +141,65 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_2
-	this.instance = new lib.Symbol1("synched",0);
-	this.instance.setTransform(107,35,0.2286,0.2286,0,0,0,107,35);
-	this.instance.alpha = 0;
-	this.instance._off = true;
+	// Layer_6
+	this.instance = new lib.StoughtonJUNE_0000s_0000s_0000_Plainwhitebackgroundcopy();
+	this.instance.setTransform(79,27,0.2516,0.2517);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(14).to({_off:false},0).to({scaleX:1,scaleY:1,alpha:1},19,cjs.Ease.backOut).wait(207));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(240));
+
+	// Layer_4
+	this.instance_1 = new lib.StoughtonJUNE_0000s_0000s_0001_OnlineConversationPlatformcopy2();
+	this.instance_1.setTransform(65,26,0.2967,0.2967);
+
+	this.instance_2 = new lib.StoughtonJUNE_0000s_0000s_0002_FootHealthGuidecopy2();
+	this.instance_2.setTransform(64,26,0.2967,0.2967);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1}]}).wait(240));
+
+	// Layer_5
+	this.instance_3 = new lib.Symbol2("synched",0);
+	this.instance_3.setTransform(640,233,1,1,0,0,0,640,209);
+	this.instance_3.alpha = 0;
+	this.instance_3._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(2).to({_off:false},0).to({y:208,alpha:1},17,cjs.Ease.quartOut).wait(221));
+
+	// Layer_3
+	this.instance_4 = new lib.Symbol1("synched",0);
+	this.instance_4.setTransform(640,233,1,1,0,0,0,640,209);
+	this.instance_4.alpha = 0;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({y:209,alpha:1},17,cjs.Ease.quartOut).wait(223));
+
+	// Layer_2
+	this.instance_5 = new lib.StoughtonHP_0001s_0001_StoughtonHealthlogoRGBclean();
+	this.instance_5.setTransform(1,-3,0.3641,0.3641);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(240));
 
 	// Layer_1
-	this.instance_1 = new lib.RogersandHolland_0000s_0000_EndorsedbyCourtneyCroninESPNReporter();
-	this.instance_1.setTransform(0,0,0.5,0.5);
+	this.instance_6 = new lib.StoughtonHP_0001s_0002_Rectangle5();
+	this.instance_6.setTransform(-210,31,0.6617,0.8114);
 
-	this.instance_2 = new lib.RogersandHolland_0000s_0001_Layer10();
-	this.instance_2.setTransform(0,0,0.5,0.5);
+	this.instance_7 = new lib.StoughtonHP_0001s_0005_Rectangle4();
+	this.instance_7.setTransform(0,-16,0.3883,0.8114);
 
-	this.instance_3 = new lib.RogersandHolland_0000s_0002_9cdb952fa9a54dd189692d165925a3be();
-	this.instance_3.setTransform(0,0,0.5,0.5);
-
-	this.instance_4 = new lib.RogersandHolland_0000s_0003_GenerativeFill();
-	this.instance_4.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]}).wait(240));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.instance_6}]}).wait(240));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(151.9,22.4,184.70000000000002,28.9);
+p.nominalBounds = new cjs.Rectangle(-50,8,686.9,166.4);
 // library properties:
 lib.properties = {
-	id: '228AAE95127A49BABE62239C671C328C',
+	id: '5D929F02A2A841ACB4DFB5EA1430115D',
 	width: 320,
 	height: 50,
 	fps: 30,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/RogersandHolland_0000s_0000_EndorsedbyCourtneyCroninESPNReporter.png", id:"RogersandHolland_0000s_0000_EndorsedbyCourtneyCroninESPNReporter"},
-		{src:"images/RogersandHolland_0000s_0000s_0000_ShopNow.png", id:"RogersandHolland_0000s_0000s_0000_ShopNow"},
-		{src:"images/RogersandHolland_0000s_0000s_0001_Rectangle1.png", id:"RogersandHolland_0000s_0000s_0001_Rectangle1"},
-		{src:"images/RogersandHolland_0000s_0001_Layer10.png", id:"RogersandHolland_0000s_0001_Layer10"},
-		{src:"images/RogersandHolland_0000s_0002_9cdb952fa9a54dd189692d165925a3be.png", id:"RogersandHolland_0000s_0002_9cdb952fa9a54dd189692d165925a3be"},
-		{src:"images/RogersandHolland_0000s_0003_GenerativeFill.png", id:"RogersandHolland_0000s_0003_GenerativeFill"}
+		{src:"images/320x50_atlas_1.png", id:"320x50_atlas_1"}
 	],
 	preloads: []
 };
@@ -178,7 +237,7 @@ an.bootstrapCallback=function(fnCallback) {
 };
 
 an.compositions = an.compositions || {};
-an.compositions['228AAE95127A49BABE62239C671C328C'] = {
+an.compositions['5D929F02A2A841ACB4DFB5EA1430115D'] = {
 	getStage: function() { return exportRoot.stage; },
 	getLibrary: function() { return lib; },
 	getSpriteSheet: function() { return ss; },
